@@ -1,0 +1,95 @@
+
+.image{
+   width:30%;
+    margin-left:9%;
+    margin-top:11%;
+    float: left;
+   
+}
+.bas{
+  clear: both;
+}
+.data {
+  
+    width:105%;
+    font-size:30px;
+    }
+
+    .data1{
+      margin-top:9%;
+
+      float: left;
+
+    }
+.further{clear: left; float:left; 
+    display: block;
+}
+.further.skills{
+    margin-left: 35px;
+    margin-top:10%;
+   
+}
+.waisehi{
+    clear:both;
+}
+#cp{
+    float:left
+}#dev{
+    float:left
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+   
+    perspective: 1000px;/* Remove this if you don't want the 3D effect*/
+  }
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+.flip-card:hover .flip-card-inner {
+  
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+   
+  }
+  .flip-card-back {
+    background-color:#030029 ;
+    transform: rotateY(180deg);
+    
+  }
+  .imag1e{
+      border-radius:50%;
+  }
+  .work{
+      clear:both;
+      color:black;
+  }
+  .handles{
+      float:left,
+  }
+  
+
+.card{
+  margin-left:5%;
+ 
+  margin-top: 5%;
+ 
+  float:left;
+}
