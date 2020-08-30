@@ -10,7 +10,7 @@
   clear: both;
 }
 .data {
-  
+     clear: both;  
     width:105%;
     font-size:30px;
     }
@@ -85,7 +85,13 @@
       float:left,
   }
   
-
+.bas1{
+  margin-top:.2% ;
+  margin-left: 16%;
+  float:left;
+}.hola{
+  float: left;
+}
 .card{
   margin-left:5%;
  
